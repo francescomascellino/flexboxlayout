@@ -3,3 +3,42 @@
     margin: 0;
     padding: 0;
 }
+
+body {}
+
+header {
+    background-color: orangered;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    width: 66%;
+    min-height: 450px;
+    background-color: antiquewhite;
+    padding: 0.5rem;
+}
+
+.sidebar {
+    width: 33%;
+    height: 450px;
+    background-color: bisque;
+    padding: 0.5rem;
+}
+
+footer {
+    margin-top: 1rem;
+    height: 100px;
+    background-color: beige;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
